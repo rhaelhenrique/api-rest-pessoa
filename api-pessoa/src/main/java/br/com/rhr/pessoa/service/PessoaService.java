@@ -4,7 +4,6 @@ import br.com.rhr.pessoa.model.Endereco;
 import br.com.rhr.pessoa.model.Pessoa;
 import br.com.rhr.pessoa.model.exception.EnderecoExistenteException;
 import br.com.rhr.pessoa.model.exception.PessoaNotFoundException;
-import br.com.rhr.pessoa.repository.EnderecoRepository;
 import br.com.rhr.pessoa.repository.PessoaRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
